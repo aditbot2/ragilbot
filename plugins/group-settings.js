@@ -17,5 +17,6 @@ handler.command = /^(group)$/i
 
 handler.admin = true
 handler.botAdmin = true
+handler.limit = true
 
 export default handler

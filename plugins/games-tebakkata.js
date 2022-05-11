@@ -1,7 +1,7 @@
 import { tebakkata } from '@bochilteam/scraper'
 
-let timeout = 120000
-let poin = 4999
+let timeout = 60000
+let poin = 1000
 let handler = async (m, { conn, usedPrefix }) => {
     conn.tebakkata = conn.tebakkata ? conn.tebakkata : {}
     let id = m.chat
@@ -15,6 +15,8 @@ ${json.soal}
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik ${usedPrefix}teka untuk bantuan
 Bonus: ${poin} XP
+
+*‼️REPLY SOAL UNTUK MENJAWAB‼️*
 `.trim()
     conn.tebakkata[id] = [
         await conn.sendButton(m.chat, caption, author, ['hint', `${usedPrefix}teka`], m),
