@@ -9,4 +9,6 @@ handler.tags = ['downloader']
 
 handler.command = /^((facebook|fb)(downloder|dl)?)$/i
 
+handler.limit = true
+
 export default handler

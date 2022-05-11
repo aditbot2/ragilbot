@@ -1,5 +1,5 @@
 import { family100 } from '@bochilteam/scraper'
-const winScore = 4999
+const winScore = 1000
 async function handler(m) {
     this.game = this.game ? this.game : {}
     let id = 'family100_' + m.chat

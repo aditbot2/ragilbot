@@ -25,4 +25,6 @@ handler.tags = ['downloader']
 
 handler.command = /^(igstalk)$/i
 
+handler.limit = true
+
 export default handler

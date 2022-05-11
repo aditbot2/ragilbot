@@ -14,4 +14,6 @@ handler.tags = ['downloader']
 
 handler.command = /^(tik(tok)?(dl)?)$/i
 
+handler.limit = true
+
 export default handler
