@@ -6,8 +6,8 @@ global.owner = [
   ['919971107409', 'Valor_Bot', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = ['919971107409'] // Want some help?
-global.prems = ['919971107409'] // Premium user has unlimited limit
+global.mods = ['6283133162295'] // Want some help?
+global.prems = ['6283133162295'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -28,8 +28,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Valor Bot'
-global.author = 'Dinesh_Valor🇮🇳'
+global.packname = '62831331622952'
+global.author = 'Ragil bot'
 
 global.multiplier = 69 // The higher, The harder levelup
 
