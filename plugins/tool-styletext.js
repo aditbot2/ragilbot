@@ -8,6 +8,7 @@ handler.tags = ['tools']
 handler.command = /^(style(text)?)$/i
 
 handler.exp = 0
+handler.limit = true
 
 export default handler
 
