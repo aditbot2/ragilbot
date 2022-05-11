@@ -1,14 +1,13 @@
 let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 conn.sendHydrated(m.chat, 
 `*––––––『 DONATE 』––––––*`, 
-`🇮🇳 ᴅᴏᴍᴇsᴛɪᴄ ᴩᴀʏ :
-⮕ ₹ ᴜᴩɪ – dineshvalor@apl
-★ sᴄᴀɴ ǫʀ ᴄᴏᴅᴇ ﹠ ᴅᴏɴᴀᴛᴇ ᴠɪᴀ
-ᴩᴀʏᴛᴍ, ᴀᴍᴀᴢᴏɴ ᴩᴀʏ , ʙʜɪᴍ, ғʀᴇᴇᴄʜᴀʀɢᴇ, ɢᴩᴀʏ ﹙ɢᴏᴏɢʟᴇ-ᴩᴀʏ﹚, ᴍᴏʙɪᴋᴡɪᴋ, ᴍʏᴊɪᴏ, ᴩʜᴏɴᴇᴩᴇ, ᴇᴛᴄ.
+`Tf pulsa sabi kali y 🗿
+083133162295 - Axis 🗿️‍🌈
 
-💱 ɪɴᴛᴇʀɴᴀᴛɪᴏɴᴀʟ ᴩᴀʏ :
-⮕ PᴀʏPᴀʟ
-★ ᴄʟɪᴄᴋ ᴏɴ ᴩᴀʏᴩᴀʟ ʟɪɴᴋ ᴛᴏ ᴍᴀᴋᴇ ɪɴᴛᴇʀɴᴀᴛɪᴏɴᴀʟ ᴛʀᴀɴsᴀᴄᴛɪᴏɴ.`, './media/donate.jpg', 'https://www.paypal.me/DineshValor', 'PᴀʏPᴀʟ', null, null, [[`ᴍᴇɴᴜ`, `${usedPrefix}menu`]], m, {asLocation: true})
+Ingin add bot ke group?
+25k / bulan
+atau trial 24 jam, minat? chat owner
+wa.me/6283133162295`, './media/donate.jpg', 'https://chat.whatsapp.com/Dxtz9xAxial3A43AJetabY', 'Bot Group', null, null, [[`ᴍᴇɴᴜ`, `${usedPrefix}menu`]], m, {asLocation: true})
 }
 handler.help = ['donate']
 handler.tags = ['info']
