@@ -487,7 +487,7 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `Your limit is up, please buy via *${usedPrefix}buy*`, m)
+                    this.reply(m.chat, `limit kamu sudah habis, ketik *${usedPrefix}buy limit* untuk mendapatkan limit`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
