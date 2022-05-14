@@ -49,14 +49,14 @@ export default handler
 function reward(user = {}) {
     let rewards = {
         reward: {
-            money: 201,
-            exp: 301,
-            trash: 101,
-            potion: 2,
-            rock: 2,
-            wood: 2,
-            string: 2,
-            common: 2 * (user.dog && (user.dog > 2 ? 2 : user.dog) * 1.2 || 1),
+            money: 1000,
+            exp: 1000,
+            trash: 300,
+            potion: 30,
+            rock: 300,
+            wood: 300,
+            string: 500,
+            common: 5 * (user.dog && (user.dog > 2 ? 2 : user.dog) * 1.2 || 1),
             uncommon: [0, 0, 0, 1, 0].concat(
                 new Array(5 - (
                     (user.dog > 2 && user.dog < 6 && user.dog) || (user.dog > 5 && 5) || 2

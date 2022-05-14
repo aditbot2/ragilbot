@@ -4,6 +4,7 @@ import { promises } from 'fs'
 const tfinventory = {
   others: {
     money: true,
+    limit:true,
   },
   tfitems: {
     potion: true,
@@ -31,7 +32,7 @@ const tfinventory = {
   }
 }
 const items = [
-    'money', 'potion', 'trash', 'wood',
+    'money', 'limit', 'potion', 'trash', 'wood',
     'rock', 'string', 'petFood', 'emerald',
     'diamond', 'gold', 'iron', 'common',
     'uncommon', 'mythic', 'legendary', 'pet',
@@ -57,7 +58,7 @@ ${tfpets}` : ''}
 ⮕ ᴛʀᴀɴsғᴇʀ ᴍᴏɴᴇʏ|ɪᴛᴇᴍ|ᴄʀᴀᴛᴇ ᴛᴏ ᴜsᴇʀ:
 ${usedPrefix}${command} [name] [quantity] @user
 ★ ᴇxᴀᴍᴩʟᴇ:
-${usedPrefix}${command} money 999 @${_package.name}
+${usedPrefix}${command} money 999 @ragil
 `.trim()
     const type = (args[0] || '').toLowerCase()
     if (!item.includes(type)) return conn.sendButton(m.chat, '*–––––『 TRANSFER 』–––––*', lol, './media/transfer.jpg', [

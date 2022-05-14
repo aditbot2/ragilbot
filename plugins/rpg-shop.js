@@ -1,7 +1,7 @@
 const items = {
     buy: {
         limit: {
-            exp: 10000
+            exp: 2000
         },
         potion: {
             money: 1250,
@@ -16,6 +16,18 @@ const items = {
         },
         trash: {
             money: 4
+        },
+        rock: {
+            money: 50
+        },
+        wood: {
+            money: 100
+        },
+        string: {
+            money: 150
+        },
+        common: {
+            money: 5000
         }
     }
 }

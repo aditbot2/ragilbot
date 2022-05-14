@@ -53,12 +53,12 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
   let speed = neww - old
     conn.sendHydrated(m.chat, 
     '*––––––『 BOT INFO 』––––––*', 
-`🤖 ɴᴀᴍᴇ: ${_package.name}
+`🤖 ɴᴀᴍᴇ: Ragil bot
 🧩 ᴠᴇʀsɪᴏɴ: ${_package.version}
 📚 ʟɪʙʀᴀʀʏ: ${_package.description}
 
 ⏳ ᴜᴩᴛɪᴍᴇ: ${uptime}
-📈 ᴅᴀᴛᴀʙᴀsᴇ: ${totalreg}
+👾 ᴛᴏᴛᴀʟ ᴜsᴇʀ: ${totalreg}
 
 📅 ᴅᴀᴛᴇ: ${date}
 ⌚ ᴛɪᴍᴇ: ${time} ﹙ɢᴍᴛ +5:30﹚
