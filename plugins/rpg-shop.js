@@ -18,16 +18,16 @@ const items = {
             money: 4
         },
         rock: {
-            money: 50
+            money: 5
         },
         wood: {
-            money: 100
+            money: 10
         },
         string: {
-            money: 150
+            money: 15
         },
         common: {
-            money: 5000
+            money: 1000
         }
     }
 }
