@@ -27,6 +27,5 @@ handler.help = ['toimg (reply)']
 handler.tags = ['sticker']
 handler.command = /^toimg$/i
 
-handler.limit = true
 
 export default handler

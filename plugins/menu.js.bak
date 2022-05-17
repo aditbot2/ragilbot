@@ -28,7 +28,7 @@ let tags = {
   'audio': 'AUDIO',
   'database': 'DATABASE',
   'canvas': 'CANVAS',
-  'spill or drink': 'SPILL OR DRINK [ RP ]',
+  'spill or drink': 'SPILL OR DRINK',
 }
 const defaultMenu = {
   before: `%readmore`.trimStart(),

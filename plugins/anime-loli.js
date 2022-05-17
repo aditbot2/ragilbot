@@ -7,7 +7,6 @@ let handler = async (m, { conn, text }) => {
   handler.tags = ['anime']
   handler.help = ['loli']
   
-  handler.limit = true
   export default handler
   
   global.loli = [

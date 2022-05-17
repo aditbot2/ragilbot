@@ -23,7 +23,5 @@ handler.help = ['', 'earch'].map(v => 'yts' + v + ' <pencarian>')
 handler.tags = ['tools']
 handler.command = /^yts(earch)?$/i
 
-handler.limit = true
-handler.premium = true
 
 export default handler

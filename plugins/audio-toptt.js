@@ -15,6 +15,5 @@ handler.tags = ['audio']
 
 handler.command = /^to(vn|(ptt)?)$/i
 
-handler.limit = true
 
 export default handler

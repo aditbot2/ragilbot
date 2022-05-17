@@ -15,6 +15,5 @@ handler.tags = ['audio']
 
 handler.command = /^to(mp3|a(udio)?)$/i
 
-handler.limit = true
 
 export default handler

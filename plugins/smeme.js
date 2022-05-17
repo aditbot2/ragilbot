@@ -16,6 +16,5 @@ handler.help = ['smeme']
 handler.tags = ['sticker']
 handler.command = /^(smeme)$/i
 
-handler.limit = true
 
 export default handler

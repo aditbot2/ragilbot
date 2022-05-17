@@ -10,6 +10,5 @@ handler.tags = ['maker']
 
 handler.command = /^(lolice)$/i
 
-handler.limit = true
 
 export default handler

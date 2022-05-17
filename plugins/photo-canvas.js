@@ -25,6 +25,6 @@ handler.help = ['wasted', 'glass', 'gay', 'passed', 'jail', 'comrade / komunis',
 handler.tags = ['canvas']
 handler.command = /^wasted|glaass|gay|passed|jail|comrade|komunis|pixelate|blur|greyscale|invert|brightness|threshold|sepia|red$/i
 
-handler.limit = true
+
 export default handler
 

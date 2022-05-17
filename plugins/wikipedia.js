@@ -13,6 +13,5 @@ handler.help = ['wikipedia'].map(v => v + ' <apa>')
 handler.tags = ['internet']
 handler.command = /^(wiki|wikipedia)$/i
 
-handler.limit = true
 
 export default handler

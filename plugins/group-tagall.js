@@ -19,7 +19,6 @@ handler.tags = ['group']
 handler.command = /^(tagall|all)$/i
 
 handler.group = true
-handler.limit = true
 handler.admin = true
 handler.cooldown = cooldown
 

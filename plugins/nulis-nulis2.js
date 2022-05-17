@@ -70,7 +70,6 @@ handler.help = ['n'].map(v => v + 'ulis2 <teks>')
 handler.tags = ['nulis']
 handler.command = /^nulis2$/i
 
-handler.limit = true
 
 export default handler
 

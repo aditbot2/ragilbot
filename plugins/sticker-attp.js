@@ -7,6 +7,5 @@ handler.tags = ['sticker']
 
 handler.command = /^attp$/i
 
-handler.limit = true
 
 export default handler

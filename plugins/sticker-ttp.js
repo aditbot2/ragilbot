@@ -11,6 +11,5 @@ handler.tags = ['sticker']
 
 handler.command = /^ttp$/i
 
-handler.limit = true
 
 export default handler

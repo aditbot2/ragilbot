@@ -10,6 +10,5 @@ handler.tags = ['downloader']
 
 handler.command = /^(wallpaper2?)$/i
 
-handler.limit = true
 
 export default handler
