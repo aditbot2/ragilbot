@@ -2,6 +2,7 @@ const tfinventory = {
   others: {
     money: true,
     limit: true,
+    exp: true
   },
   tfitems: {
     potion: true,

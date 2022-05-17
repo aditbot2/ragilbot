@@ -5,6 +5,7 @@ const tfinventory = {
   others: {
     money: true,
     limit:true,
+    exp: true,
   },
   tfitems: {
     potion: true,
@@ -32,7 +33,7 @@ const tfinventory = {
   }
 }
 const items = [
-    'money', 'limit', 'potion', 'trash', 'wood',
+    'money', 'limit', 'exp', 'potion', 'trash', 'wood',
     'rock', 'string', 'petFood', 'emerald',
     'diamond', 'gold', 'iron', 'common',
     'uncommon', 'mythic', 'legendary', 'pet',

@@ -21,13 +21,21 @@ let tags = {
   'owner': 'OWNER',
   'advanced': 'ADVANCED',
   'info': 'INFO',
+  'absen': 'ABSEN',
+  'anime': 'ANIME',
+  'maker': 'MAKER',
+  'quran': 'QURAN',
+  'audio': 'AUDIO',
+  'database': 'DATABASE',
+  'canvas': 'CANVAS',
+  'spill or drink': 'SPILL OR DRINK',
 }
 const defaultMenu = {
   before: `%readmore`.trimStart(),
   header: '╭─ *〘 %category 〙*\n│',
     body: '├ %cmd %islimit %isPremium',
   footer: '│\n╰────˧\n',
-  after: `  ${'ʟɪᴍɪᴛ ʜᴀʙɪs? ᴋᴀᴍᴜ ʜᴀʀᴜs ʙᴇʀᴍᴀɪɴ ɢᴀᴍᴇ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ᴇxᴘ\n\n➭ ᴍᴀɪɴᴋᴀɴ ɢᴀᴍᴇ ᴍᴇɴᴜ\n➭ᴅᴀᴘᴀᴛʟᴀɴ ᴇxᴘ\n➭ᴋᴇᴛɪᴋ #ᴘʀᴏғɪʟᴇ ᴜɴᴛᴜᴋ ᴄᴇᴋ ᴊᴜᴍʟᴀʜ ᴇxᴘ\n➭ᴋᴇᴛɪᴋ #ʙᴜʏ ᴜɴᴛᴜᴋ ᴄᴇᴋ ʜᴀʀɢᴀ ʟɪᴍɪᴛ'}`,
+  after: `  ${'ʟɪᴍɪᴛ ʜᴀʙɪs? ᴋᴀᴍᴜ ʜᴀʀᴜs ʙᴇʀᴍᴀɪɴ ɢᴀᴍᴇ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ᴇxᴘ\n\n➭ ᴍᴀɪɴᴋᴀɴ ɢᴀᴍᴇ ᴍᴇɴᴜ\n➭ ᴅᴀᴘᴀᴛᴋᴀɴ ᴇxᴘ\n➭ ᴋᴇᴛɪᴋ #ᴘʀᴏғɪʟᴇ ᴜɴᴛᴜᴋ ᴄᴇᴋ ᴊᴜᴍʟᴀʜ ᴇxᴘ\n➭ ᴋᴇᴛɪᴋ #ʙᴜʏ ᴜɴᴛᴜᴋ ᴄᴇᴋ ʜᴀʀɢᴀ ʟɪᴍɪᴛ'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -135,7 +143,8 @@ ${wish()}, ${name}
 
 *⇓ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛᴇᴅ ʙᴇʟᴏᴡ ⇓*`, text.trim(), `${timeimg()}`, [
       [`ʙᴏᴛ ɪɴғᴏ`, `${usedPrefix}botinfo`],
-      [`ᴩʀᴏғɪʟᴇ`, `${usedPrefix}profile`]
+      [`ᴩʀᴏғɪʟᴇ`, `${usedPrefix}profile`],
+      [`ᴊᴀɴɢᴀɴ ᴅɪ ᴋʟɪᴋ`, `${usedPrefix}gcbot`]
     ], m, {asLocation: true})
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
@@ -158,19 +167,16 @@ function wish() {
   const time = moment.tz('Asia/Kolkata').format('HH')
   wishloc = ('Hi')
   if (time >= 0) {
-    wishloc = ('Night Rider')
+    wishloc = ('Selamat pagi')
   }
-  if (time >= 4) {
-    wishloc = ('Good Morning')
+  if (time >= 11) {
+    wishloc = ('Selamat siang')
   }
-  if (time >= 12) {
-    wishloc = ('Good Afternoon')
+  if (time >= 15) {
+    wishloc = ('Selamat sore')
   }
-  if (time >= 16) {
-    wishloc = ('️Good Evening')
-  }
-  if (time >= 23) {
-    wishloc = ('Night Rider')
+  if (time >= 19) {
+    wishloc = ('️Selamat malam')
   }
   return wishloc
 }
@@ -209,7 +215,7 @@ function timeimg() {
     imgloc = ('./media/sunset.jpg')
   }
   if (time >= 19) {
-    imgloc = ('./media/dusk.jpg')
+    imgloc = ('./media/night.jpg')
   }
   if (time >= 20) {
     imgloc = ('./media/night.jpg')
