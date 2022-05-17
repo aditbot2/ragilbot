@@ -10,6 +10,6 @@ handler.tags = ['tools']
 
 handler.command = /^del(ete)?$/i
 
-handler.limit = true
+handler.premium = true
 
 export default handler
