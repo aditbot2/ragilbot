@@ -21,6 +21,7 @@ handler.tags = ['group']
 handler.command = /^(pengumuman|announce|hiddentag|hidetag)$/i
 
 handler.group = true
+handler.limit = true
 handler.admin = true
 
 export default handler

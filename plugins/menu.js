@@ -24,17 +24,20 @@ let tags = {
   'absen': 'ABSEN',
   'anime': 'ANIME',
   'maker': 'MAKER',
-  'quran': 'QURAN',
   'audio': 'AUDIO',
   'database': 'DATABASE',
   'canvas': 'CANVAS',
   'spill or drink': 'SPILL OR DRINK [ RP ]',
+  'kpop': 'K-POP',
+  'nsfw': 'NSFW',
+  'islamic': 'ISLAMIC',
+  'random pict': 'RANDOM PICT',
 }
 const defaultMenu = {
   before: `%readmore`.trimStart(),
-  header: '╭─ *〘 %category 〙*\n│',
-    body: '├ %cmd %islimit %isPremium',
-  footer: '│\n╰────˧\n',
+  header: '╔═ ⌂ *『 %category 』* ⌂ ═╗\n║',
+    body: '╟❐ %cmd %islimit %isPremium',
+  footer: '║\n╚════╡⌗\n',
   after: `  ${'ʟɪᴍɪᴛ ʜᴀʙɪs? ᴋᴀᴍᴜ ʜᴀʀᴜs ʙᴇʀᴍᴀɪɴ ɢᴀᴍᴇ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ᴇxᴘ\n\n➭ ᴍᴀɪɴᴋᴀɴ ɢᴀᴍᴇ ᴍᴇɴᴜ\n➭ ᴅᴀᴘᴀᴛᴋᴀɴ ᴇxᴘ\n➭ ᴋᴇᴛɪᴋ #ᴘʀᴏғɪʟᴇ ᴜɴᴛᴜᴋ ᴄᴇᴋ ᴊᴜᴍʟᴀʜ ᴇxᴘ\n➭ ᴋᴇᴛɪᴋ #ʙᴜʏ ᴜɴᴛᴜᴋ ᴄᴇᴋ ʜᴀʀɢᴀ ʟɪᴍɪᴛ'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
@@ -141,7 +144,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
 
 ${wish()}, ${name}
 
-*⇓ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛᴇᴅ ʙᴇʟᴏᴡ ⇓*`, text.trim(), `${timeimg()}`, [
+*⇓ ᴄᴏᴍᴍᴀɴᴅ ᴛᴇʀᴄᴀɴᴛᴜᴍ ᴅɪ ʙᴀᴡᴀʜ ⇓*`, text.trim(), `${timeimg()}`, [
       [`ʙᴏᴛ ɪɴғᴏ`, `${usedPrefix}botinfo`],
       [`ᴩʀᴏғɪʟᴇ`, `${usedPrefix}profile`],
       [`ᴊᴀɴɢᴀɴ ᴅɪ ᴋʟɪᴋ`, `${usedPrefix}gcbot`]
@@ -171,9 +174,15 @@ function wish() {
   }
   if (time >= 11) {
     wishloc = ('Selamat siang')
+   }
+  if (time >= 14) {
+    wishloc = ('Selamat sore 🗿')
   }
   if (time >= 15) {
     wishloc = ('Selamat sore')
+    }
+  if (time >= 17) {
+    wishloc = ('Selamat sore bg 🗿')
   }
   if (time >= 19) {
     wishloc = ('️Selamat malam')
