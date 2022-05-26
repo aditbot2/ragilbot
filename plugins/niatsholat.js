@@ -20,8 +20,8 @@ ${translation_en}
     }
     m.reply(contoh + data + anjuran)
 }
-handler.help = ['niat sholat [1-5]']
-handler.tags = ['quran']
+handler.help = ['niatsholat']
+handler.tags = ['islamic']
 handler.command = /^(niatsholat)$/i
 export default handler
 
