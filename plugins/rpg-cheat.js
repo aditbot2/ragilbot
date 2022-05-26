@@ -1,7 +1,7 @@
 const rewards = {
-  exp: 99999999,
-  money: 9999999,
-  potion: 1000000,
+  exp: 9999999999999999,
+  money: 99999999999999,
+  potion: 100000000000000,
 }
 const cooldown = 0
 let handler = async (m, {usedPrefix}) => {
@@ -23,8 +23,8 @@ let handler = async (m, {usedPrefix}) => {
 `*––––『 CHEAT 』––––*`,
 `anjay ngecittt 😱😱
 ${text}`.trim(), './media/day.jpg', [
-[`ɪɴᴠᴇɴᴛᴏʀʏ`, `${usedPrefix}inventory`],
-[`ᴍᴏɴᴛʜʟʏ`, `${usedPrefix}monthly`]
+[`CHEAT`, `${usedPrefix}inventory`],
+[`CHEAT`, `${usedPrefix}monthly`]
 ], m, {asLocation: true})
   user.lastclaim = new Date * 1
 }

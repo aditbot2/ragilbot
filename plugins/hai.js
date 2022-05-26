@@ -7,7 +7,7 @@ ${['haii 🗿',
   mentions: m.mentionedJid
 } : {})
 
-handler.customPrefix = /hai|halo/i
+handler.customPrefix = /halo/i
 handler.command = new RegExp
 
 export default handler
