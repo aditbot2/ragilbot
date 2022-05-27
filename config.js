@@ -3,11 +3,11 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['6283133162295', 'Adit 🗿', true]
+  ['6283133162295', 'Ditz', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = ['6283133162295'] // Want some help?
-global.prems = ['6283133162295'] // Premium user has unlimited limit
+global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -28,8 +28,9 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '62831331622952'
-global.author = 'Ragil bot 🏳️‍🌈'
+global.packname = ''
+global.author = 'Ragil Bot 🗿🏳️‍🌈'
+global.wm =  '⌤︎\n𝚁︎\n𝙰︎\n𝙶︎\n𝙸︎\n𝙻︎\n︎\n⌂︎\n︎\n𝗕︎\n𝗢︎\n𝗧︎\n✦︎\n❒︎\nwa.me/62831331622952︎\n︎\n︎\n⌦   𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙱𝚈 𝚁𝙰𝙶𝙸𝙻 𝙱𝙾𝚃   ⌫\n                     © ②⓪②②'
 
 global.multiplier = 69 // The higher, The harder levelup
 
