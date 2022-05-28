@@ -9,7 +9,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let img = await q.download()
     let url = await uploadImage(img)
     let meme = `https://api.memegen.link/images/custom/${encodeURIComponent(atas ? atas : '')}/${encodeURIComponent(bawah ? bawah : '')}.png?background=${url}`
-    let stiker = await sticker(false, meme, global.packname, global.author)
+    let stiker = await sticker(false, meme, global.packname, global.wm)
     if (stiker) await conn.sendFile(m.chat, stiker, '', author, m, '', { asSticker: 1 })
 }
 handler.help = ['smeme']

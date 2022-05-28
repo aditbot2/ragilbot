@@ -14,8 +14,10 @@ let format = sizeFormatter({
   render: (literal, symbol) => `${literal} ${symbol}B`,
 })
 let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
-    let date = moment.tz('Asia/Kolkata').format("dddd, Do MMMM, YYYY")
-    let time = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+    let date = moment.tz('Asia/Jakarta').format("dddd, Do MMMM, YYYY")
+    let time = moment.tz('Asia/Jayapura').format('HH:mm:ss')
+    let time2 = moment.tz('Asia/Makassar').format('HH:mm:ss')
+    let time3 = moment.tz('Asia/Jakarta').format('HH:mm:ss')
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
@@ -61,7 +63,10 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 👾 ᴛᴏᴛᴀʟ ᴜsᴇʀ: ${totalreg}
 
 📅 ᴅᴀᴛᴇ: ${date}
-⌚ ᴛɪᴍᴇ: ${time} ﹙ɢᴍᴛ +5:30﹚
+⌚ ᴛɪᴍᴇ: ${time} 『 ᴡɪᴛ 』
+⌚ ᴛɪᴍᴇ: ${time2}『 ᴡɪᴛᴀ 』
+⌚ ᴛɪᴍᴇ: ${time3}『 ᴡɪʙ 』
+
 
 💻 sᴇʀᴠᴇʀ ɪɴғᴏ :
 ⮕ ᴩɪɴɢ: ${speed} ᴍs
