@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
     conn.sendButton(m.chat, 'Mau cosplay bg? 🗿', 'ragil bot 🗿🏳️‍🌈', url, [['LAGI', '#cosplay']], m)
   }
   handler.command = /^(cosplay)$/i
-  handler.tags = ['fun']
+  handler.tags = ['random pict']
   handler.help = ['cosplay']
   handler.limit = true
   

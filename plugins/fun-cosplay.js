@@ -1,16 +1,16 @@
 let handler = async (m, { conn, text }) => {
-    let yh = global.cosplay
+    let yh = global.funcosplay
     let url = yh[Math.floor(Math.random() * yh.length)]
-    conn.sendButton(m.chat, 'Mau cosplay bg? 🗿', 'ragil bot 🗿🏳️‍🌈', url, [['LAGI', '#cosplay']], m)
+    conn.sendButton(m.chat, 'Mau funcosplay bg? 🗿', 'ragil bot 🗿🏳️‍🌈', url, [['LAGI', '#funcosplay']], m)
   }
-  handler.command = /^(cosplay)$/i
+  handler.command = /^(funcosplay)$/i
   handler.tags = ['random pict']
-  handler.help = ['cosplay']
+  handler.help = ['funcosplay']
   handler.limit = true
   
   export default handler
   
-  global.cosplay = [
+  global.funcosplay = [
 "https://telegra.ph/file/713dc4ac5f8b6eec331ae.jpg",
 "https://telegra.ph/file/c02be7b0991c5ce2b2cdb.jpg",
 "https://telegra.ph/file/12d8fed804bf26beb8b4e.jpg",
