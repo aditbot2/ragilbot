@@ -6,6 +6,7 @@ let handler = async (m, { conn, text }) => {
   handler.command = /^(exo)$/i
   handler.tags = ['kpop']
   handler.help = ['exo']
+  handler.limit = true
   
   export default handler
   

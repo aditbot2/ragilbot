@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
   handler.command = /^(random)$/i
   handler.tags = ['anime']
   handler.help = ['random']
-  
+  handler.limit = true
   export default handler
   
   global.random = [

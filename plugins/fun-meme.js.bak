@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
     conn.sendButton(m.chat, 'awali harimu dengan meme 😅', 'ragil bot 🗿🏳️‍🌈', url, [['NEXT', '#meme']], m)
   }
   handler.command = /^(meme)$/i
-  handler.tags = ['random pict']
+  handler.tags = ['fun']
   handler.help = ['meme']
   handler.limit = true
   

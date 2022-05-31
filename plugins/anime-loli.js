@@ -1,11 +1,12 @@
 let handler = async (m, { conn, text }) => {
     let yh = global.loli
     let url = yh[Math.floor(Math.random() * yh.length)]
-    conn.sendButton(m.chat, 'RANDOM LOLI', 'LOLI', url, [['LOLI', '#loli']], m)
+    conn.sendButton(m.chat, 'RANDOM LOLI', 'by ragil bot 🗿🏳️‍🌈', url, [['LOLI', '#loli']], m)
   }
   handler.command = /^(loli)$/i
   handler.tags = ['anime']
   handler.help = ['loli']
+  handler.limit = true
   
   export default handler
   

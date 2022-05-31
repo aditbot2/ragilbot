@@ -4,8 +4,9 @@ let handler = async (m, { conn, text }) => {
     conn.sendButton(m.chat, 'RANDOM KOMIK', 'ragil bot 🗿🏳️‍🌈', url, [['KOMIK', '#komik']], m)
   }
   handler.command = /^(komik)$/i
-  handler.tags = ['fun']
+  handler.tags = ['random pict']
   handler.help = ['komik']
+  handler.limit = true
   
   export default handler
   

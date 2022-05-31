@@ -6,6 +6,7 @@ let handler = async (m, { conn, text }) => {
   handler.command = /^(blackpink)$/i
   handler.tags = ['kpop']
   handler.help = ['blackpink']
+  handler.limit = true
   
   export default handler
   

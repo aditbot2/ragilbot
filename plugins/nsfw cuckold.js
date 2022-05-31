@@ -6,6 +6,7 @@ let handler = async (m, { conn, text }) => {
   handler.command = /^(cuckold)$/i
   handler.tags = ['nsfw']
   handler.help = ['cuckold']
+  handler.private = true
   
   handler.limit = true
   

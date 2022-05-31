@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
   handler.command = /^(foot)$/i
   handler.tags = ['nsfw']
   handler.help = ['foot']
-  
+  handler.private = true
   handler.limit = true
   
   export default handler

@@ -6,6 +6,7 @@ let handler = async (m, { conn, text }) => {
   handler.command = /^(komik)$/i
   handler.tags = ['fun']
   handler.help = ['komik']
+  handler.limit = true
   
   export default handler
   
@@ -84,7 +85,7 @@ let handler = async (m, { conn, text }) => {
      "https://telegra.ph/file/1820224672d21b85db2a7.jpg",
      "https://telegra.ph/file/971faabc6c1ee97c9151b.jpg",
      "https://telegra.ph/file/4c50b6dcf4c779eefb55f.jpg",
-     "https://telegra.ph/file/e17539dfc3a02951528c6.jpg:,
+     "https://telegra.ph/file/e17539dfc3a02951528c6.jpg",
      "https://telegra.ph/file/4d6e044972c6a1fd1035b.jpg",
      "https://telegra.ph/file/5c40437dfc29b051093c4.jpg",
      "https://telegra.ph/file/82fdfcd19d9398a3e1450.jpg",
@@ -170,8 +171,9 @@ let handler = async (m, { conn, text }) => {
      "https://telegra.ph/file/50a2f616a6ce393842f7a.jpg",
      "https://telegra.ph/file/6be1e025cda4f15a5f4f1.jpg",
      "https://telegra.ph/file/f3d49302025d61afd1d3b.jpg",
-     
-     
-     
-     
+     "https://telegra.ph/file/a29aebf9b3945d52f5c34.jpg",
+     "https://telegra.ph/file/da1e1cce2ba673260d897.jpg",
+     "https://telegra.ph/file/148cfccd2a4918e6e97b0.jpg",
+     "https://telegra.ph/file/5d0f88afe970661e0502a.jpg",
+     "https://telegra.ph/file/492306a4986835efc3dbf.jpg"
   ]

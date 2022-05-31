@@ -8,9 +8,11 @@ let handler = async (m, { conn, usedPrefix }) => {
     conn.sendButton(m.chat, 'Crush kok 2d 🗿', author, json.url, [['waifu', `${usedPrefix}waifu`]], m)
 }
 handler.help = ['waifu']
-handler.tags = ['internet']
+handler.tags = ['anime']
 handler.command = /^(waifu)$/i
 //MADE IN ERPAN 1140 BERKOLABORASI DENGAN BTS
+
+handler.limit = true
 
 
 export default handler

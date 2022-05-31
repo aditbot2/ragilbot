@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
   handler.command = /^(ahegao)$/i
   handler.tags = ['nsfw']
   handler.help = ['ahegao']
-  
+  handler.private = true
   handler.limit = true
   
   export default handler

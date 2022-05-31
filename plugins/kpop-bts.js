@@ -6,6 +6,7 @@ let handler = async (m, { conn, text }) => {
   handler.command = /^(bts)$/i
   handler.tags = ['kpop']
   handler.help = ['bts']
+  handler.limit = true
   
   export default handler
   
