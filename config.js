@@ -23,6 +23,7 @@ global.APIs = { // API Prefix
   zahir: 'https://zahirr-web.herokuapp.com',
   zeks: 'https://api.zeks.xyz',
   pencarikode: 'https://pencarikode.xyz',
+  violetics: 'https://violetics.pw',
   LeysCoder: 'https://leyscoders-api.herokuapp.com'
 }
 global.APIKeys = { // APIKey Here
@@ -31,11 +32,13 @@ global.APIKeys = { // APIKey Here
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
+  'https://violetics.pw': 'beta',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
 // Sticker WM
 global.packname = ''
+global.gc = 'https://chat.whatsapp.com/Dxtz9xAxial3A43AJetabY'
 global.author = 'Ragil Bot 🗿🏳️‍🌈'
 global.wm =  '⌤︎\n𝚁︎\n𝙰︎\n𝙶︎\n𝙸︎\n𝙻︎\n︎\n⌂︎\n︎\n𝗕︎\n𝗢︎\n𝗧︎\n✦︎\n❒︎\nwa.me/62831331622952︎\n︎\n︎\n⌦   𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙱𝚈 𝚁𝙰𝙶𝙸𝙻 𝙱𝙾𝚃   ⌫\n                     © ②⓪②②'
 
