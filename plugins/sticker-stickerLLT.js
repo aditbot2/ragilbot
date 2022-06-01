@@ -18,7 +18,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['stikerline <url>']
 handler.tags = ['sticker']
-handler.command = /^(stic?ker(line|tele(gram)?))$/i
+handler.command = /^(stikerline)$/i
 
 
 export default handler
